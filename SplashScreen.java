@@ -86,9 +86,9 @@ public class SplashScreen extends GameScreen
 		font = (GameFont)gameApplet.getGameContext().getObject("bubbleFont");
 		
 		flashingMessage = new TextSprite[3];
-		flashingMessage[0] = new TextSprite(new Rectangle(289, 383, 100, 22), font, "PRESS");
-		flashingMessage[1] = new TextSprite(new Rectangle(300, 407, 100, 22), font, "FIRE");
-		flashingMessage[2] = new TextSprite(new Rectangle(276, 430, 100, 22), font, "TO START");
+		flashingMessage[0] = new TextSprite(new Rectangle(289, 383, 100, 22), font, "Hallo");
+		flashingMessage[1] = new TextSprite(new Rectangle(300, 407, 100, 22), font, "mein");
+		flashingMessage[2] = new TextSprite(new Rectangle(276, 430, 100, 22), font, "Freund");
 		for (int i=0 ; i<3 ; i++)
 		{
 			this.addSprite(flashingMessage[i]);
@@ -96,7 +96,7 @@ public class SplashScreen extends GameScreen
 		
 		penguinEyes = new ImageSprite(new Rectangle(370, 280, 19, 9), media.loadImage("close_eyes.gif"));
 		
-		String message = "| FROZEN BUBBLE 1UP V 1.0.1 - JAVA RELEASE 4  {  DESIGN & PROGRAMMING - Guillaume Cottenceau";
+	    String message = "| FROZEN BUBBLE 1UP V 1.0.1 - JAVA RELEASE 4  {  DESIGN & PROGRAMMING - Guillaume Cottenceau";
 		message += "  }  GRAPHICS - Alexis Younes (AYO73)  [  GRAPHICS (BUBBLES) - Amaury Amblard-Ladurantie";
 		message += "  ]  SOUND & MUSIC - Matthias Le Bidan (Matths)   JAVA 1.1+ VERSION - Glenn sanson ";
 		message += "  \\ SPECIAL THANKS to Benoit dien for his help & to my wife for her patience";

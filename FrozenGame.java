@@ -650,9 +650,9 @@ public class FrozenGame extends GameScreen
 			}
 		}
 		
-		if (fixedBubbles == 6)
+		if (fixedBubbles == 1)
 		{
-			if (blinkDelay < 15)
+			if (blinkDelay < 1)
 			{
 				blinkLine(blinkDelay);
 			}
